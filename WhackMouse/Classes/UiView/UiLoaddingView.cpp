@@ -9,6 +9,7 @@
 #include "UiLoaddingView.h"
 #include "GameView.h"
 #include "LayoutUtil.h"
+#include "Scale9ProgressBar.h"
 
 USING_NS_CC;
 
@@ -43,6 +44,20 @@ bool UiLoaddingView::init() {
     this->addChild(about2);
     LayoutUtil::layoutParentCenter(about1);
     LayoutUtil::layoutBottomLeft(about2, about1);
+    
+    Scale9Sprite* barbg = Scale9Sprite::create("bar_bg.png");
+    Scale9ProgressBar* bar = Scale9ProgressBar::create("bar_fg.png");
+    
+    barbg->setContentSize(Size(500, barbg->getContentSize().height ));
+    bar->setContentSize(Size(500, bar->getContentSize().height ));
+    bar->setVisibleRatio(1.0f);
+    
+    barbg->addChild(bar);
+    this->addChild(barbg);
+    
+    LayoutUtil::layoutParentCenter(bar);
+    LayoutUtil::layoutParentTop(barbg, 0, -10);
+    
     
     return true;
 }
