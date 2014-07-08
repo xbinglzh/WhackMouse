@@ -8,6 +8,7 @@
 
 #include "UiLoaddingView.h"
 #include "GameView.h"
+#include "LayoutUtil.h"
 
 USING_NS_CC;
 
@@ -34,6 +35,14 @@ bool UiLoaddingView::init() {
     mainMenu->addChild(blueMenuItem);
     this->addChild(mainMenu);
     mainMenu->setPosition(getContentSize().width - 100, 100);
+    
+    auto about1 = Sprite::create("aboutA.png");
+    auto about2 = Sprite::create("aboutB.png");
+    
+    this->addChild(about1);
+    this->addChild(about2);
+    LayoutUtil::layoutParentCenter(about1);
+    LayoutUtil::layoutBottomLeft(about2, about1);
     
     return true;
 }

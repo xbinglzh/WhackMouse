@@ -8,6 +8,7 @@
 
 #include "GameView.h"
 #include "UiLoaddingView.h"
+#include "LayoutUtil.h"
 
 Scene* GameView::createScene() {
     auto gameScene = Scene::create();
@@ -20,16 +21,25 @@ bool GameView::init() {
     if (!Layer::init()) {
         return false;
     }
+    this->setAnchorPoint(Point::ZERO);
     
     auto bg = Sprite::create("gamebg1.png");
     bg->setAnchorPoint(Point::ZERO);
     this->addChild(bg);
     
     auto mainMenu = Menu::create();
+    mainMenu->setAnchorPoint(Point::ZERO);
+    mainMenu->setContentSize(this->getContentSize());
+    this->addChild(mainMenu);
+    LayoutUtil::layoutParentBottomLeft(mainMenu);
+    
     auto blueMenuItem = MenuItemImage::create("btn_blue_up.png", "btn_blue_down.png", CC_CALLBACK_0(GameView::onBackMenuCallBack, this));
     mainMenu->addChild(blueMenuItem);
-    this->addChild(mainMenu);
-    mainMenu->setPosition(getContentSize().width - 100, 100);
+    
+    LayoutUtil::layoutParentCenter(blueMenuItem);
+    
+    
+    
     
     return true;
 }
