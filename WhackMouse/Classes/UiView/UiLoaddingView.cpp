@@ -45,18 +45,17 @@ bool UiLoaddingView::init() {
     LayoutUtil::layoutParentCenter(about1);
     LayoutUtil::layoutBottomLeft(about2, about1);
     
-    Scale9Sprite* barbg = Scale9Sprite::create("bar_bg.png");
-    Scale9ProgressBar* bar = Scale9ProgressBar::create("bar_fg.png");
+//    Scale9Sprite* barbg = Scale9Sprite::create("bar_bg.png");
+    Scale9ProgressBar* bar = Scale9ProgressBar::create("XXUiHomeViewBlueBar.png");
     
-    barbg->setContentSize(Size(500, barbg->getContentSize().height ));
+//    barbg->setContentSize(Size(500, barbg->getContentSize().height ));
     bar->setContentSize(Size(500, bar->getContentSize().height ));
-    bar->setVisibleRatio(1.0f);
+    bar->setVisibleRatio(0.6f);
     
-    barbg->addChild(bar);
-    this->addChild(barbg);
+//    barbg->addChild(bar);
+    this->addChild(bar);
     
-    LayoutUtil::layoutParentCenter(bar);
-    LayoutUtil::layoutParentTop(barbg, 0, -10);
+    LayoutUtil::layoutParentTopLeft(bar, 20, -80);
     
     
     return true;
