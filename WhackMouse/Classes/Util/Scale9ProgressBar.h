@@ -156,8 +156,6 @@ public:
     
     virtual void setSpriteFrame(SpriteFrame * spriteFrame);
     
-    virtual const Color3B& getColor(void);
-    
     virtual void visit(Renderer *renderer, const Mat4& parentTransform, uint32_t parentFlags);
 };
 

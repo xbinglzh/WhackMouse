@@ -728,7 +728,7 @@ void Scale9ProgressBar::setColor(const Color3B& color3)
     }
 }
 
-const Color3B& Scale9ProgressBar::getColor(void) {
+const Color3B& Scale9ProgressBar::getColor(void) const {
     return m_tColor;
 }
 
