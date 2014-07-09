@@ -10,6 +10,8 @@
 #include "GameView.h"
 #include "LayoutUtil.h"
 #include "Scale9ProgressBar.h"
+#include "SpriteExt.h"
+#include "ShaderEffectSprite.h"
 
 USING_NS_CC;
 
@@ -38,7 +40,7 @@ bool UiLoaddingView::init() {
     mainMenu->setPosition(getContentSize().width - 100, 100);
     
     auto about1 = Sprite::create("aboutA.png");
-    auto about2 = Sprite::create("aboutB.png");
+    auto about2 = SpriteExt::create("aboutB.png");
     
     this->addChild(about1);
     this->addChild(about2);
@@ -56,6 +58,13 @@ bool UiLoaddingView::init() {
     this->addChild(bar);
     
     LayoutUtil::layoutParentTopLeft(bar, 20, -80);
+    
+    auto sSprite = ShaderEffectSprite::create("avatar.png", ShaderManager::effect_color_white);
+    this->addChild(sSprite);
+    sSprite->setPosition(Point(100,100));
+//    LayoutUtil::layoutParentCenter(sSprite);
+    
+    CCLOG("w: %f, h %f", sSprite->getContentSize().width, sSprite->getContentSize().height);
     
     
     return true;

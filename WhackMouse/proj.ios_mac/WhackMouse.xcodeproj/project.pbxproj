@@ -77,6 +77,12 @@
 		604EB3C7196C6D3F0084B2F9 /* XXUiHomeViewBlueBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 604EB3C4196C6D3F0084B2F9 /* XXUiHomeViewBlueBar.png */; };
 		604EB3C8196C6D3F0084B2F9 /* XXUiHomeViewRedBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 604EB3C5196C6D3F0084B2F9 /* XXUiHomeViewRedBar.png */; };
 		604EB3C9196C6D3F0084B2F9 /* XXUiHomeViewRedBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 604EB3C5196C6D3F0084B2F9 /* XXUiHomeViewRedBar.png */; };
+		60A2BFF7196D984400064166 /* ShaderEffectSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60A2BFF3196D984400064166 /* ShaderEffectSprite.cpp */; };
+		60A2BFF8196D984400064166 /* ShaderEffectSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60A2BFF3196D984400064166 /* ShaderEffectSprite.cpp */; };
+		60A2BFF9196D984400064166 /* ShaderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60A2BFF5196D984400064166 /* ShaderManager.cpp */; };
+		60A2BFFA196D984400064166 /* ShaderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60A2BFF5196D984400064166 /* ShaderManager.cpp */; };
+		60A2BFFC196D9CAF00064166 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 60A2BFFB196D9CAF00064166 /* avatar.png */; };
+		60A2BFFD196D9CAF00064166 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 60A2BFFB196D9CAF00064166 /* avatar.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -293,6 +299,11 @@
 		604EB3BD196C57F20084B2F9 /* bar_fg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_fg.png; sourceTree = "<group>"; };
 		604EB3C4196C6D3F0084B2F9 /* XXUiHomeViewBlueBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XXUiHomeViewBlueBar.png; sourceTree = "<group>"; };
 		604EB3C5196C6D3F0084B2F9 /* XXUiHomeViewRedBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XXUiHomeViewRedBar.png; sourceTree = "<group>"; };
+		60A2BFF3196D984400064166 /* ShaderEffectSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderEffectSprite.cpp; sourceTree = "<group>"; };
+		60A2BFF4196D984400064166 /* ShaderEffectSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderEffectSprite.h; sourceTree = "<group>"; };
+		60A2BFF5196D984400064166 /* ShaderManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderManager.cpp; sourceTree = "<group>"; };
+		60A2BFF6196D984400064166 /* ShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderManager.h; sourceTree = "<group>"; };
+		60A2BFFB196D9CAF00064166 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -505,6 +516,7 @@
 		600A984819692DB4009D303A /* resources-normal */ = {
 			isa = PBXGroup;
 			children = (
+				60A2BFFB196D9CAF00064166 /* avatar.png */,
 				604EB3C4196C6D3F0084B2F9 /* XXUiHomeViewBlueBar.png */,
 				604EB3C5196C6D3F0084B2F9 /* XXUiHomeViewRedBar.png */,
 				604EB3BC196C57F20084B2F9 /* bar_bg.png */,
@@ -531,6 +543,10 @@
 		604EB39D196C4EAB0084B2F9 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				60A2BFF3196D984400064166 /* ShaderEffectSprite.cpp */,
+				60A2BFF4196D984400064166 /* ShaderEffectSprite.h */,
+				60A2BFF5196D984400064166 /* ShaderManager.cpp */,
+				60A2BFF6196D984400064166 /* ShaderManager.h */,
 				604EB3B8196C54E60084B2F9 /* SpriteExt.cpp */,
 				604EB3B9196C54E60084B2F9 /* SpriteExt.h */,
 				604EB3A6196C50B20084B2F9 /* LayoutUtil.cpp */,
@@ -734,6 +750,7 @@
 				600A9851196930D4009D303A /* btn_blue_down.png in Resources */,
 				60350DE91969459100A85E99 /* gamebg1.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
+				60A2BFFC196D9CAF00064166 /* avatar.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
@@ -764,6 +781,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A2BFFD196D9CAF00064166 /* avatar.png in Resources */,
 				604EB3BF196C57F20084B2F9 /* bar_bg.png in Resources */,
 				604EB3C7196C6D3F0084B2F9 /* XXUiHomeViewBlueBar.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
@@ -779,8 +797,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A2BFF9196D984400064166 /* ShaderManager.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				604EB3AE196C53530084B2F9 /* Scale9ProgressBar.cpp in Sources */,
+				60A2BFF7196D984400064166 /* ShaderEffectSprite.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				604EB3BA196C54E60084B2F9 /* SpriteExt.cpp in Sources */,
 				60350DE5196944D200A85E99 /* GameView.cpp in Sources */,
@@ -795,8 +815,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A2BFFA196D984400064166 /* ShaderManager.cpp in Sources */,
 				604EB3BB196C54E60084B2F9 /* SpriteExt.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
+				60A2BFF8196D984400064166 /* ShaderEffectSprite.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
