@@ -59,12 +59,12 @@ bool UiLoaddingView::init() {
     
     LayoutUtil::layoutParentTopLeft(bar, 20, -80);
     
-    auto sSprite = ShaderEffectSprite::create("avatar.png", ShaderManager::effect_color_white);
-    this->addChild(sSprite);
-    sSprite->setPosition(Point(100,100));
-//    LayoutUtil::layoutParentCenter(sSprite);
-    
-    CCLOG("w: %f, h %f", sSprite->getContentSize().width, sSprite->getContentSize().height);
+//    auto sSprite = ShaderEffectSprite::create("avatar.png", ShaderManager::effect_color_white);
+//    this->addChild(sSprite);
+//    sSprite->setPosition(Point(100,100));
+////    LayoutUtil::layoutParentCenter(sSprite);
+//    
+//    CCLOG("w: %f, h %f", sSprite->getContentSize().width, sSprite->getContentSize().height);
     
     
     return true;

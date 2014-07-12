@@ -18,12 +18,15 @@ Scene* GameView::createScene() {
 }
 
 bool GameView::init() {
+    
     if (!Layer::init()) {
         return false;
     }
+    
     this->setAnchorPoint(Point::ZERO);
     
-    auto bg = Sprite::create("gamebg1.png");
+    auto bg = Sprite::create("xmap_back_grass.png");
+    bg->setScale(this->getContentSize().width / bg->getContentSize().width, this->getContentSize().height / bg->getContentSize().height);
     bg->setAnchorPoint(Point::ZERO);
     this->addChild(bg);
     
@@ -37,9 +40,6 @@ bool GameView::init() {
     mainMenu->addChild(blueMenuItem);
     
     LayoutUtil::layoutParentCenter(blueMenuItem);
-    
-    
-    
     
     return true;
 }
