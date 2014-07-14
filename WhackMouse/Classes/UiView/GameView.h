@@ -29,12 +29,11 @@ public:
 private:
     void onBackMenuCallBack();
     void initPitData();
-    void layoutPit();
+    void initMouseData();
+    
     
 private:
     Node* _pitNode;
-    float _pitGridWidth;
-    float _pitGridHeight;
 };
 
 
