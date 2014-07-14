@@ -10,12 +10,16 @@
 #define __WhackMouse__GameView__
 
 #include "cocos2d.h"
+//#include "LayoutUtil.h"
 
 USING_NS_CC;
 
 class GameView : public Layer {
     
 public:
+    GameView();
+    ~GameView();
+    
     static Scene* createScene();
     
     virtual bool init();
@@ -24,7 +28,12 @@ public:
     
 private:
     void onBackMenuCallBack();
+    void initPitData();
+    void initMouseData();
     
+    
+private:
+    Node* _pitNode;
 };
 
 

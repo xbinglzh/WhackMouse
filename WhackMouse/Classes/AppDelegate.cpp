@@ -2,6 +2,7 @@
 #include "UiLoaddingView.h"
 #include "Def/ConstantsDef.h"
 #include "GameConfig.h"
+#include "GameView.h"
 
 USING_NS_CC;
 
@@ -63,7 +64,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     
     FileUtils::getInstance()->setSearchPaths(ccfilePath);
     
-    auto scene = UiLoaddingView::createScene();
+    auto scene = GameView::createScene();
     director->runWithScene(scene);
 
     return true;
