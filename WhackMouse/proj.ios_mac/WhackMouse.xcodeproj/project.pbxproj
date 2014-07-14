@@ -112,6 +112,22 @@
 		60C404501971129900A33532 /* grass_pit.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C4044E1971129900A33532 /* grass_pit.png */; };
 		60C40460197118CA00A33532 /* GameConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C4045E197118CA00A33532 /* GameConfig.cpp */; };
 		60C40461197118CA00A33532 /* GameConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C4045E197118CA00A33532 /* GameConfig.cpp */; };
+		60C405481971256000A33532 /* GameUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C405461971256000A33532 /* GameUtils.cpp */; };
+		60C405491971256000A33532 /* GameUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C405461971256000A33532 /* GameUtils.cpp */; };
+		60C4054C1971261B00A33532 /* HMD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C4054A1971261B00A33532 /* HMD5.cpp */; };
+		60C4054D1971261B00A33532 /* HMD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C4054A1971261B00A33532 /* HMD5.cpp */; };
+		60C4055219712DE200A33532 /* xx_monster_1001.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60C4054F19712DE200A33532 /* xx_monster_1001.plist */; };
+		60C4055319712DE200A33532 /* xx_monster_1001.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60C4054F19712DE200A33532 /* xx_monster_1001.plist */; };
+		60C4055419712DE200A33532 /* xx_monster_1001.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C4055019712DE200A33532 /* xx_monster_1001.png */; };
+		60C4055519712DE200A33532 /* xx_monster_1001.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C4055019712DE200A33532 /* xx_monster_1001.png */; };
+		60C4055619712DE200A33532 /* xx_monster_1001.xml in Resources */ = {isa = PBXBuildFile; fileRef = 60C4055119712DE200A33532 /* xx_monster_1001.xml */; };
+		60C4055719712DE200A33532 /* xx_monster_1001.xml in Resources */ = {isa = PBXBuildFile; fileRef = 60C4055119712DE200A33532 /* xx_monster_1001.xml */; };
+		60C4055D1971761D00A33532 /* Dragon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60C4055A1971761D00A33532 /* Dragon.plist */; };
+		60C4055E1971761D00A33532 /* Dragon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60C4055A1971761D00A33532 /* Dragon.plist */; };
+		60C4055F1971761D00A33532 /* Dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C4055B1971761D00A33532 /* Dragon.png */; };
+		60C405601971761D00A33532 /* Dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C4055B1971761D00A33532 /* Dragon.png */; };
+		60C405611971761D00A33532 /* Dragon.xml in Resources */ = {isa = PBXBuildFile; fileRef = 60C4055C1971761D00A33532 /* Dragon.xml */; };
+		60C405621971761D00A33532 /* Dragon.xml in Resources */ = {isa = PBXBuildFile; fileRef = 60C4055C1971761D00A33532 /* Dragon.xml */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -345,6 +361,17 @@
 		60C404581971157400A33532 /* ConstantsDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantsDef.h; sourceTree = "<group>"; };
 		60C4045E197118CA00A33532 /* GameConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameConfig.cpp; sourceTree = "<group>"; };
 		60C4045F197118CA00A33532 /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		60C405461971256000A33532 /* GameUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameUtils.cpp; sourceTree = "<group>"; };
+		60C405471971256000A33532 /* GameUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameUtils.h; sourceTree = "<group>"; };
+		60C4054A1971261B00A33532 /* HMD5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HMD5.cpp; sourceTree = "<group>"; };
+		60C4054B1971261B00A33532 /* HMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMD5.h; sourceTree = "<group>"; };
+		60C4054E197129E100A33532 /* KeyConfigDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyConfigDef.h; sourceTree = "<group>"; };
+		60C4054F19712DE200A33532 /* xx_monster_1001.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = xx_monster_1001.plist; sourceTree = "<group>"; };
+		60C4055019712DE200A33532 /* xx_monster_1001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xx_monster_1001.png; sourceTree = "<group>"; };
+		60C4055119712DE200A33532 /* xx_monster_1001.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = xx_monster_1001.xml; sourceTree = "<group>"; };
+		60C4055A1971761D00A33532 /* Dragon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Dragon.plist; sourceTree = "<group>"; };
+		60C4055B1971761D00A33532 /* Dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dragon.png; sourceTree = "<group>"; };
+		60C4055C1971761D00A33532 /* Dragon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Dragon.xml; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -542,6 +569,10 @@
 		604EB39D196C4EAB0084B2F9 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				60C4054A1971261B00A33532 /* HMD5.cpp */,
+				60C4054B1971261B00A33532 /* HMD5.h */,
+				60C405461971256000A33532 /* GameUtils.cpp */,
+				60C405471971256000A33532 /* GameUtils.h */,
 				60A2BFF3196D984400064166 /* ShaderEffectSprite.cpp */,
 				60A2BFF4196D984400064166 /* ShaderEffectSprite.h */,
 				60A2BFF5196D984400064166 /* ShaderManager.cpp */,
@@ -654,6 +685,7 @@
 		60C40454197114D400A33532 /* Def */ = {
 			isa = PBXGroup;
 			children = (
+				60C4054E197129E100A33532 /* KeyConfigDef.h */,
 				60C404581971157400A33532 /* ConstantsDef.h */,
 			);
 			name = Def;
@@ -687,6 +719,12 @@
 		60C4046719711F1B00A33532 /* anim */ = {
 			isa = PBXGroup;
 			children = (
+				60C4055A1971761D00A33532 /* Dragon.plist */,
+				60C4055B1971761D00A33532 /* Dragon.png */,
+				60C4055C1971761D00A33532 /* Dragon.xml */,
+				60C4054F19712DE200A33532 /* xx_monster_1001.plist */,
+				60C4055019712DE200A33532 /* xx_monster_1001.png */,
+				60C4055119712DE200A33532 /* xx_monster_1001.xml */,
 			);
 			path = anim;
 			sourceTree = "<group>";
@@ -857,7 +895,9 @@
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				60C4042F1971116100A33532 /* xmap_back_snow.png in Resources */,
+				60C4055419712DE200A33532 /* xx_monster_1001.png in Resources */,
 				60C404471971116100A33532 /* xui_land_bg.png in Resources */,
+				60C4055D1971761D00A33532 /* Dragon.plist in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				60C404231971116100A33532 /* xmap_back_desert.png in Resources */,
@@ -874,6 +914,7 @@
 				60C4042D1971116100A33532 /* xmap_back_sky.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				60C4043D1971116100A33532 /* bar_fg.png in Resources */,
+				60C4055619712DE200A33532 /* xx_monster_1001.xml in Resources */,
 				60C404311971116100A33532 /* xmap_back_tower.png in Resources */,
 				60C404351971116100A33532 /* aboutB.png in Resources */,
 				60C404251971116100A33532 /* xmap_back_forest.png in Resources */,
@@ -886,9 +927,12 @@
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				60C4044F1971129900A33532 /* grass_pit.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
+				60C4055219712DE200A33532 /* xx_monster_1001.plist in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
+				60C4055F1971761D00A33532 /* Dragon.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
+				60C405611971761D00A33532 /* Dragon.xml in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 				60C404431971116100A33532 /* gamebg1.png in Resources */,
 				60C404211971116100A33532 /* Marker Felt.ttf in Resources */,
@@ -907,10 +951,13 @@
 				60C404381971116100A33532 /* avatar.png in Resources */,
 				60C404221971116100A33532 /* Marker Felt.ttf in Resources */,
 				60C4042A1971116100A33532 /* xmap_back_magma.png in Resources */,
+				60C4055319712DE200A33532 /* xx_monster_1001.plist in Resources */,
+				60C405601971761D00A33532 /* Dragon.png in Resources */,
 				60C404341971116100A33532 /* aboutA.png in Resources */,
 				60C404301971116100A33532 /* xmap_back_snow.png in Resources */,
 				60C404421971116100A33532 /* btn_blue_up.png in Resources */,
 				60C404281971116100A33532 /* xmap_back_grass.png in Resources */,
+				60C4055719712DE200A33532 /* xx_monster_1001.xml in Resources */,
 				60C404321971116100A33532 /* xmap_back_tower.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				60C4044A1971116100A33532 /* XXUiHomeViewBlueBar.png in Resources */,
@@ -922,7 +969,10 @@
 				60C404441971116100A33532 /* gamebg1.png in Resources */,
 				60C404401971116100A33532 /* btn_blue_down.png in Resources */,
 				60C404501971129900A33532 /* grass_pit.png in Resources */,
+				60C405621971761D00A33532 /* Dragon.xml in Resources */,
+				60C4055519712DE200A33532 /* xx_monster_1001.png in Resources */,
 				60C404461971116100A33532 /* xui_common_bg.png in Resources */,
+				60C4055E1971761D00A33532 /* Dragon.plist in Resources */,
 				60C4042C1971116100A33532 /* xmap_back_sea.png in Resources */,
 				60C404481971116100A33532 /* xui_land_bg.png in Resources */,
 			);
@@ -938,9 +988,11 @@
 				60A2BFF9196D984400064166 /* ShaderManager.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				604EB3AE196C53530084B2F9 /* Scale9ProgressBar.cpp in Sources */,
+				60C405481971256000A33532 /* GameUtils.cpp in Sources */,
 				60C40460197118CA00A33532 /* GameConfig.cpp in Sources */,
 				60A2BFF7196D984400064166 /* ShaderEffectSprite.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				60C4054C1971261B00A33532 /* HMD5.cpp in Sources */,
 				604EB3BA196C54E60084B2F9 /* SpriteExt.cpp in Sources */,
 				60350DE5196944D200A85E99 /* GameView.cpp in Sources */,
 				604EB3A8196C50B20084B2F9 /* LayoutUtil.cpp in Sources */,
@@ -958,8 +1010,10 @@
 				604EB3BB196C54E60084B2F9 /* SpriteExt.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
 				60C40461197118CA00A33532 /* GameConfig.cpp in Sources */,
+				60C4054D1971261B00A33532 /* HMD5.cpp in Sources */,
 				60A2BFF8196D984400064166 /* ShaderEffectSprite.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				60C405491971256000A33532 /* GameUtils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

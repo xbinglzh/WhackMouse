@@ -9,6 +9,9 @@
 #include "GameView.h"
 #include "UiLoaddingView.h"
 #include "LayoutUtil.h"
+#include "cocostudio/CocoStudio.h"
+
+using namespace cocostudio;
 
 Scene* GameView::createScene() {
     auto gameScene = Scene::create();
@@ -22,6 +25,10 @@ bool GameView::init() {
     if (!Layer::init()) {
         return false;
     }
+    
+    ArmatureDataManager::getInstance()->addArmatureFileInfoAsync(
+        "armature/Dragon.png", "armature/Dragon.plist", "armature/Dragon.xml",
+                                                                 this, NULL);
     
     this->setAnchorPoint(Point::ZERO);
     
@@ -39,7 +46,7 @@ bool GameView::init() {
     auto blueMenuItem = MenuItemImage::create("btn_blue_up.png", "btn_blue_down.png", CC_CALLBACK_0(GameView::onBackMenuCallBack, this));
     mainMenu->addChild(blueMenuItem);
     
-    LayoutUtil::layoutParentCenter(blueMenuItem);
+    LayoutUtil::layoutParentBottomRight(blueMenuItem);
     
     return true;
 }

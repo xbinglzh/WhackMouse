@@ -1,0 +1,107 @@
+<skeleton frameRate="24" name="quan_fa_jia_jingying" version="1.4">
+ <armatures>
+  <armature name="xx_monster_1001">
+   <b alpha="100" blue="100" cX="1.36" cY="1.36" green="100" kX="-24.47" kY="-24.47" name="martial_arts_001_MC_01" red="100" x="-29.55" y="-33.4" z="0">
+    <d name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_04" />
+   </b>
+   <b alpha="100" blue="100" cX="1.31" cY="1.32" green="100" kX="9.06" kY="0" name="martial_arts_001_MC_04" red="100" x="-18.2" y="-10.85" z="1">
+    <d name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_07" />
+   </b>
+   <b alpha="100" blue="100" cX="1.36" cY="1.37" green="100" kX="-7.16" kY="0" name="martial_arts_001_MC_040" red="100" x="-1.6" y="-10.6" z="2">
+    <d name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_07" />
+   </b>
+   <b alpha="100" blue="100" cX="1.36" cY="1.36" green="100" kX="0" kY="0" name="martial_arts_001_MC_03" red="100" x="-18.35" y="-41.35" z="3">
+    <d name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_06" />
+   </b>
+   <b alpha="100" blue="100" cX="1.36" cY="1.36" green="100" kX="34.94" kY="34.94" name="martial_arts_001_MC_02" red="100" x="9.4" y="-38.15" z="4">
+    <d name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_05" />
+   </b>
+   <b alpha="100" blue="100" cX="1.36" cY="1.36" green="100" kX="3.7" kY="3.7" name="martial_arts_001_MC_00" red="100" x="-27.65" y="-96.15" z="5">
+    <d name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_03" />
+   </b>
+   <b alpha="100" blue="100" cX="1.36" cY="1.36" green="100" kX="0" kY="0" name="&#22270;&#23618; 2" red="100" x="-42.5" y="-61.05" z="0">
+    <d name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_09" />
+   </b>
+   <b alpha="100" blue="51" cX="1.36" cY="1.36" green="51" kX="0" kY="0" name="&#22270;&#23618; 3" red="51" x="-37.1" y="-102.1" z="0">
+    <d name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_08" />
+   </b>
+   <b alpha="100" blue="100" cX="1.36" cY="1.36" green="100" kX="0" kY="0" name="&#22270;&#23618; 4" red="100" x="-31.65" y="-96.15" z="0">
+    <d name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_10" />
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="xx_monster_1001">
+   <mov dr="25" drTW="25" lp="1" name="walk" to="6" twE="NaN">
+    <b dl="0" name="martial_arts_001_MC_01" sc="1">
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="5" green="100" kX="-24.47" kY="-24.47" red="100" twE="0" x="-29.55" y="-33.4" z="0" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="7" green="100" kX="-9.81" kY="-9.81" red="100" twE="0" x="-30.65" y="-41.75" z="0" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="6" green="100" kX="11.99" kY="11.99" red="100" twE="0" x="-28.85" y="-43.8" z="0" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="6" green="100" kX="-6.06" kY="-6.06" red="100" twE="0" x="-30.1" y="-41.7" z="0" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="1" green="100" kX="-24.47" kY="-24.47" red="100" twE="0" x="-29.55" y="-33.4" z="0" />
+    </b>
+    <b dl="0" name="martial_arts_001_MC_04" sc="1">
+     <f alpha="100" blue="100" cX="1.31" cY="1.32" dI="0" dr="5" green="100" kX="9.06" kY="0" red="100" twE="0" x="-18.2" y="-10.85" z="1" />
+     <f alpha="100" blue="100" cX="1.31" cY="1.52" dI="0" dr="7" green="100" kX="-2.49" kY="0" red="100" twE="0" x="-14.95" y="-12.6" z="1" />
+     <f alpha="100" blue="100" cX="1.31" cY="1.32" dI="0" dr="6" green="100" kX="-24.6" kY="-15" red="100" twE="0" x="-10.45" y="-9" z="1" />
+     <f alpha="100" blue="100" cX="1.31" cY="1.32" dI="0" dr="6" green="100" kX="-20.94" kY="-30" red="100" twE="0" x="-14.75" y="-11.25" z="1" />
+     <f alpha="100" blue="100" cX="1.31" cY="1.32" dI="0" dr="1" green="100" kX="9.06" kY="0" red="100" twE="0" x="-18.2" y="-10.85" z="1" />
+    </b>
+    <b dl="0" name="martial_arts_001_MC_040" sc="1">
+     <f alpha="100" blue="100" cX="1.36" cY="1.37" dI="0" dr="5" green="100" kX="-7.16" kY="0" red="100" twE="0" x="-1.6" y="-10.6" z="2" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.37" dI="0" dr="7" green="100" kX="-37.16" kY="-30" red="100" twE="0" x="-4.55" y="-11.4" z="2" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="6" green="100" kX="0" kY="0" red="100" twE="0" x="-9.65" y="-10.6" z="2" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="6" green="100" kX="-0.63" kY="0" red="100" twE="0" x="-4.2" y="-10.6" z="2" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.37" dI="0" dr="1" green="100" kX="-7.16" kY="0" red="100" twE="0" x="-1.6" y="-10.6" z="2" />
+    </b>
+    <b dl="0" name="martial_arts_001_MC_03" sc="1">
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="5" green="100" kX="0" kY="0" red="100" twE="0" x="-18.35" y="-41.35" z="3" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="7" green="100" kX="0" kY="0" red="100" twE="0" x="-18.9" y="-45.5" z="3" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="6" green="100" kX="0" kY="0" red="100" twE="0" x="-18.35" y="-41.35" z="3" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="6" green="100" kX="0" kY="0" red="100" twE="0" x="-18.35" y="-44.35" z="3" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="1" green="100" kX="0" kY="0" red="100" twE="0" x="-18.35" y="-41.35" z="3" />
+    </b>
+    <b dl="0" name="martial_arts_001_MC_02" sc="1">
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="5" green="100" kX="34.94" kY="34.94" red="100" twE="0" x="9.4" y="-38.15" z="4" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="7" green="100" kX="11.76" kY="11.76" red="100" twE="0" x="8.85" y="-42.3" z="4" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="6" green="100" kX="0" kY="0" red="100" twE="0" x="9.4" y="-38.15" z="4" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="6" green="100" kX="9.49" kY="9.49" red="100" twE="0" x="9.4" y="-41.15" z="4" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="1" green="100" kX="34.94" kY="34.94" red="100" twE="0" x="9.4" y="-38.15" z="4" />
+    </b>
+    <b dl="0" name="martial_arts_001_MC_00" sc="1">
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="5" green="100" kX="3.7" kY="3.7" red="100" twE="0" x="-27.65" y="-96.15" z="5" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="7" green="100" kX="1.25" kY="1.25" red="100" twE="0" x="-30.7" y="-98.05" z="5" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="6" green="100" kX="3.7" kY="3.7" red="100" twE="0" x="-27.65" y="-96.15" z="5" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="6" green="100" kX="1.49" kY="1.49" red="100" twE="0" x="-29.9" y="-97.1" z="5" />
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="1" green="100" kX="3.7" kY="3.7" red="100" twE="0" x="-27.65" y="-96.15" z="5" />
+    </b>
+   </mov>
+   <mov dr="17" drTW="17" lp="0" name="die" to="6" twE="NaN">
+    <b dl="0" name="&#22270;&#23618; 2" sc="1">
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="16" green="100" kX="0" kY="0" red="100" twE="0" x="-42.5" y="-61.05" z="0" />
+     <f alpha="0" blue="100" cX="1.36" cY="1.36" dI="0" dr="1" green="100" kX="0" kY="0" red="100" x="-42.5" y="-61.05" z="0" />
+    </b>
+   </mov>
+   <mov dr="4" drTW="4" lp="0" name="injured" to="6" twE="NaN">
+    <b dl="0" name="&#22270;&#23618; 3" sc="1">
+     <f alpha="100" blue="51" cX="1.36" cY="1.36" dI="0" dr="4" green="51" kX="0" kY="0" red="51" x="-37.1" y="-102.1" z="0" />
+    </b>
+   </mov>
+   <mov dr="2" drTW="10" lp="1" name="normal" to="6" twE="2">
+    <b dl="0" name="&#22270;&#23618; 4" sc="1">
+     <f alpha="100" blue="100" cX="1.36" cY="1.36" dI="0" dr="2" green="100" kX="0" kY="0" red="100" x="-31.65" y="-96.15" z="0" />
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas height="256" name="quan_fa_jia_jingying" width="128">
+  <SubTexture height="72" name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_10" pX="0" pY="0" width="54" x="59" y="0" />
+  <SubTexture height="76" name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_08" pX="0.3" pY="0.3" width="57" x="0" y="0" />
+  <SubTexture height="51" name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_09" pX="0.4" pY="0.25" width="64" x="59" y="74" />
+  <SubTexture height="46" name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_03" pX="0" pY="0" width="51" x="0" y="78" />
+  <SubTexture height="24" name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_05" pX="0" pY="0" width="14" x="45" y="127" />
+  <SubTexture height="26" name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_06" pX="0" pY="0" width="24" x="0" y="126" />
+  <SubTexture height="13" name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_07" pX="0.05" pY="4.55" width="11" x="115" y="0" />
+  <SubTexture height="24" name="quan_fa_jia_jingying_MC-quan_fa_jia_jingying_MC_04" pX="-0.4" pY="-0.05" width="17" x="26" y="126" />
+ </TextureAtlas>
+</skeleton>
